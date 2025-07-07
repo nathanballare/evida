@@ -10,7 +10,6 @@ import {
   Database,
   Brain,
   FileText,
-  Github,
   ExternalLink,
   LineChart,
   PieChart,
@@ -117,7 +116,7 @@ export default function LandingPage() {
                     <Heart className="h-12 w-12 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-2xl font-bold text-gray-900">Dr. Aparecido de Almeida</h3>
+                    <h3 className="text-2xl font-bold text-gray-900">Dr. Aparecido Almeida</h3>
                     <Badge variant="secondary" className="bg-blue-100 text-blue-700">
                       Especialista Científico
                     </Badge>
@@ -163,39 +162,36 @@ export default function LandingPage() {
                     <Brain className="h-12 w-12 text-white" />
                   </div>
                   <div className="space-y-2">
-                    <h3 className="text-2xl font-bold text-gray-900">Nathan Ballare</h3>
+                    <h3 className="text-2xl font-bold text-gray-900">Equipe de Dados</h3>
                     <Badge variant="secondary" className="bg-green-100 text-green-700">
-                      Engenheiro de Dados & IA
+                      Especialistas Técnicos
                     </Badge>
                   </div>
                   <div className="space-y-3 text-left w-full">
                     <p className="text-gray-600 leading-relaxed">
-                      <strong>Especialista</strong> em pipelines de dados, cloud computing e IA generativa, com foco em
-                      automação e governança de dados.
+                      Time multidisciplinar de especialistas em engenharia de dados, ciência de dados e inteligência
+                      artificial, com experiência em soluções tecnológicas para o setor público.
                     </p>
                     <ul className="space-y-2 text-sm text-gray-600">
                       <li className="flex items-start gap-2">
                         <Database className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                        <span>Integração cloud (GCP, AWS, Azure) e SQL Server</span>
+                        <span>Engenheiros de dados e cientistas especializados</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <Brain className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                        <span>IA generativa (ChatGPT, LangChain, OpenAI)</span>
+                        <span>Expertise em cloud computing e big data</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <BarChart3 className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                        <span>Visualização BI e automações Python + APIs</span>
+                        <span>Desenvolvimento de soluções de IA e automação</span>
                       </li>
                     </ul>
                   </div>
                   <Link
-                    href="https://nathanballare.github.io/nathanballareportfolio.github.io/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#equipe"
                     className="inline-flex items-center gap-2 text-sm text-green-600 hover:text-green-700 font-medium"
                   >
-                    <Github className="h-4 w-4" />
-                    Portfólio GitHub
+                    Conheça Nossa Equipe
                   </Link>
                 </div>
               </CardContent>
@@ -729,8 +725,8 @@ export default function LandingPage() {
             <div className="text-center space-y-2">
               <p className="text-sm text-gray-400">Responsáveis Técnicos:</p>
               <div className="space-y-1">
-                <p className="text-sm font-medium">Dr. Aparecido de Almeida</p>
-                <p className="text-sm font-medium">Nathan Ballare</p>
+                <p className="text-sm font-medium">Dr. Aparecido Almeida</p>
+                <p className="text-sm font-medium">Equipe de Dados</p>
               </div>
             </div>
 
@@ -743,15 +739,6 @@ export default function LandingPage() {
               >
                 <ExternalLink className="h-4 w-4" />
                 Lattes - Dr. Aparecido
-              </Link>
-              <Link
-                href="https://nathanballare.github.io/nathanballareportfolio.github.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm text-green-400 hover:text-green-300"
-              >
-                <Github className="h-4 w-4" />
-                GitHub - Nathan Ballare
               </Link>
             </div>
           </div>
