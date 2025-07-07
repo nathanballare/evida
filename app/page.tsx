@@ -723,10 +723,9 @@ export default function LandingPage() {
             </div>
 
             <div className="text-center space-y-2">
-              <p className="text-sm text-gray-400">Responsáveis Técnicos:</p>
+              <p className="text-sm text-gray-400">Responsável Técnico:</p>
               <div className="space-y-1">
                 <p className="text-sm font-medium">Dr. Aparecido Almeida</p>
-                <p className="text-sm font-medium">Equipe de Dados</p>
               </div>
             </div>
 
