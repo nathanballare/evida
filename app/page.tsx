@@ -84,7 +84,7 @@ export default function LandingPage() {
                 className="inline-flex h-12 items-center justify-center rounded-lg bg-green-600 px-8 text-sm font-medium text-white shadow-lg transition-all hover:bg-green-700 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-500"
               >
                 <MessageCircle className="mr-2 h-4 w-4" />
-                Fale Conosco
+                Fale com a nossa equipe!
               </Link>
               <Link
                 href="#projetos"
@@ -669,7 +669,7 @@ export default function LandingPage() {
                 className="inline-flex h-12 items-center justify-center rounded-lg bg-white px-8 text-sm font-medium text-blue-700 shadow-lg transition-all hover:bg-blue-50 hover:shadow-xl"
               >
                 <MessageCircle className="mr-2 h-4 w-4" />
-                Fale Conosco
+                Fale com a nossa equipe!
               </Link>
               <Link
                 href="#contato"
@@ -699,7 +699,7 @@ export default function LandingPage() {
                 className="inline-flex h-12 items-center justify-center rounded-lg bg-green-600 px-8 text-sm font-medium text-white shadow-lg transition-all hover:bg-green-700 hover:shadow-xl"
               >
                 <MessageCircle className="mr-2 h-4 w-4" />
-                WhatsApp: +55 11 91063-4711
+                Fale com a nossa equipe!
               </Link>
               <Link
                 href="mailto:contato@datahubsaude.com"
