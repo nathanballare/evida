@@ -154,7 +154,7 @@ export default function LandingPage() {
               </CardContent>
             </Card>
 
-            {/* Nathan */}
+            {/* Equipe de Dados */}
             <Card className="border-green-200 hover:shadow-xl transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex flex-col items-center space-y-4 text-center">
@@ -723,10 +723,7 @@ export default function LandingPage() {
             </div>
 
             <div className="text-center space-y-2">
-              <p className="text-sm text-gray-400">Responsável Técnico:</p>
-              <div className="space-y-1">
-                <p className="text-sm font-medium">Dr. Aparecido Almeida</p>
-              </div>
+              <p className="text-sm font-medium">Responsável Técnico: Dr. Aparecido Almeida</p>
             </div>
 
             <div className="flex flex-col gap-2 md:items-end">
